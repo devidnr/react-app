@@ -5,7 +5,7 @@ import data from './data.json';
 import './css/bootstrap.min.css';
 import {BrowserRouter,Route,Link} from 'react-router-dom';
 import Resume from'./resume';
-function App() {
+function Spp() {
   return (
     <BrowserRouter>
     <Route exact path='/' component={Home}/>
@@ -41,4 +41,4 @@ function App() {
  
  }
 
-export default App;
+export default Spp;
